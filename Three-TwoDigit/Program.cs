@@ -19,7 +19,7 @@
 int rand = new Random().Next(100, 1000);
 Console.WriteLine("Случайное число: " + rand);
 int a = FindFirstDigit(rand);
-int b = FindSecondDigit(rand);
+int b = FindSecondDigit(rand); // Данное действие лишнее;
 int c = FindThirdDigit(rand);
 Console.WriteLine(a * 10 + c);
 

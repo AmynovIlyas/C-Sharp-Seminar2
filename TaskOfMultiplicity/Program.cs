@@ -5,9 +5,9 @@
 // 16, 4 --> кратно
 
 Console.WriteLine("Введите первое число: ");
-int a1 = int.Parse(Console.ReadLine());
+int a1 = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите второе число: ");
-int b1 = int.Parse(Console.ReadLine());
+int b1 = int.Parse(Console.ReadLine()!);
 Multiplicity(a1, b1);
 
 void Multiplicity(int a, int b)
